@@ -7,4 +7,4 @@ streamlit==1.36.0
 unstructured==0.15.13
 selenium==4.25.0
 python-dotenv==1.0.1
-sqlite3==
+SQLAlchemy

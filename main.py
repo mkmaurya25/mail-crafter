@@ -4,6 +4,10 @@ from portfolio import Portfolio
 from utils import clean_text
 from langchain_community.document_loaders import WebBaseLoader
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 def create_streamlit_app():
     st.title("📧 Cold Mail Crafter")
     # Input for API key (hidden with password field)

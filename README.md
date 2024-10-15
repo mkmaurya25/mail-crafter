@@ -34,3 +34,13 @@ pip install -r requirements.txt
 ```pyhton
 streamlit run main.py
 ```
+## Usage
+- Enter your API Key.
+- Paste the job url
+
+## Licence
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+This application utilizes LangChain and Groq for handling language models.
+Special thanks to the open-source community for providing powerful libraries and frameworks.
